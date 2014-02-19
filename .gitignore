@@ -1,0 +1,13 @@
+/.bundle
+/vendor/bundle/
+
+config/database.yml
+log/*
+tmp/*
+
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+.sass-cache
