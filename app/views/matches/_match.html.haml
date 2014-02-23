@@ -1,0 +1,20 @@
+.panel.match{:class => ("callout" if match.now_on?)}
+  .row
+    .large-10.small-10.columns
+      %h2
+        = match
+      %p
+        = time_tag match.kickoff
+      %p
+        = time_tag match.fulltime
+      %p
+        - if match.now_on?
+          = distance_of_time_in_words Time.now, match.fulltime
+          to fulltime
+        - else
+          = distance_of_time_in_words Time.now, match.kickoff
+          to kickoff
+
+    .large-2.small-2.columns
+      .channel
+        = match.channel_number
