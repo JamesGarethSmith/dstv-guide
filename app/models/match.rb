@@ -3,9 +3,14 @@ class Match < ActiveRecord::Base
   # ends_at: datetime
   # title: string
   # channel_number: integer (index)
+  # key: string
+  # location: string
+  # competition: string
 
-  validates :starts_at, :ends_at, :title, presence: true
+  validates :starts_at, :ends_at, :key, presence: true
   belongs_to :channel, primary_key: :number, foreign_key: :channel_number
+
+  scope :unset, where(title: nil)
 
   def self.coming
     where("ends_at > ?", Time.now)

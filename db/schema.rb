@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140222160249) do
+ActiveRecord::Schema.define(version: 20140225173942) do
 
   create_table "channels", force: true do |t|
     t.string   "title"
@@ -29,6 +29,9 @@ ActiveRecord::Schema.define(version: 20140222160249) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "channel_number"
+    t.string   "key"
+    t.string   "location"
+    t.string   "competition"
   end
 
   add_index "matches", ["channel_number"], name: "index_matches_on_channel_number", using: :btree

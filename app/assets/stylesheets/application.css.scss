@@ -1,1 +1,49 @@
 @import "foundation_and_overrides";
+
+body {
+  background: rgb(253, 253, 253);
+  color: #636363;
+  padding-top: 20px;
+}
+
+table.twelve {
+  width: 100%;
+  color: #636363;
+
+  th {
+    font-weight: normal;
+    text-align: right;
+  }
+}
+
+.details {
+  display: none;
+  margin: 10px 0 0 0;
+}
+
+.match {
+  cursor: pointer;
+}
+
+.info {
+  text-align: center;
+  line-height: 2em;
+  padding: 10px 0;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.channel {
+  padding-top: 0
+}
+
+.time {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+@media #{$large-up} {
+  .info {
+    padding: 0;
+    border-bottom: none;
+  }
+}

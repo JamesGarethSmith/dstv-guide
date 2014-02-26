@@ -1,8 +1,8 @@
 require 'spec_helper'
 
 describe Match do
-  it "should require a title" do
-    build(:match, title: "").should_not be_valid
+  it "should require a key" do
+    build(:match, key: "").should_not be_valid
   end
 
   it "should require a start time" do
