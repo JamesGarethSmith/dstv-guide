@@ -1,0 +1,87 @@
+// http://www.dstv.com/guide/GuideAsyncHandler.ashx?method=GetEventsByCountryChannelBouquet&channel=203&countryId=ZA&bouquet=1&channelType=video&date=2014-02-23
+
+{
+  "Channels": [
+    {
+      "ID":145,
+      "Img":"\/New_logos\/SuperSport 3\/SS3_homepage.png",
+      "Name":"SuperSport 3",
+      "Num":203,
+      "Schedules": [
+        ["ac9d9193-d78c-4e7c-81d9-d5d571c8e32e", "1393110000","1800","UEFA Champions League Magazine..."],
+        ["ccfca459-67a8-41d0-9857-d4e2219a5a02","1393111800","1800","FIFA Futbol Mundial"],
+        ["06f37d3b-4a39-405c-84ba-50be3caa237b","1393113600","7200","Barclays Premier League 2013\/2014"],
+        ["d0ffa957-ba8c-455c-a80c-f00c59f1c333","1393120800","3600","FAPL TV - Saturday Review 2013\/2014"],
+        ["61a3d9d4-c7d0-4bef-b559-2924f63b16c1","1393124400","7200","Barclays Premier League 2013\/2014"],
+        ["8cb06426-0ef2-443d-b865-e4799decbbe7","1393131600","7200","Barclays Premier League 2013\/2014"],
+        ["31c3a0c9-820d-4063-a649-499089770f06","1393138800","3600","FAPL TV - Saturday Review 2013\/2014"],
+        ["9e39ddef-9c5f-43e1-86f5-fa1f6d231f41","1393142400","300","Spanish La Liga Blitz H\/L 2013\/2014"],
+        ["31046116-032a-4b6b-a7ae-ac12371a9e49","1393142700","600","Spanish La Liga Blitz H\/L 2013\/2014"],
+        ["0bba4dc5-2242-439d-b890-85e32da70176","1393143300","300","Bundesliga Blitz H\/L 2013\/2014"],
+        ["00ba77d3-2cd7-4e1d-9e60-96ede926ceee","1393143600","600","Italian Serie A Blitz H\/L 2013\/2014"],
+        ["f1e39fd3-ec9f-4dbf-8c08-a4be659c7eaf","1393144200","300","Barclays Premier League Blitz..."],
+        ["bbb5e7dc-dbd1-4b39-a61b-e5312fbf89c0","1393144500","600","Barclays Premier League Blitz..."],
+        ["5fcef9be-d038-4ae1-92c5-b6f244a7f569","1393145100","300","Barclays Premier League Blitz..."],
+        ["8810a701-c62d-497a-bf09-b52c1af24188","1393145400","600","Barclays Premier League Blitz..."],
+        ["e006c46d-b9fa-4d9d-9a0a-9bd2349c1e7e","1393146000","300","Spanish La Liga Blitz H\/L 2013\/2014"],
+        ["3c5d2747-ae41-4f58-ba0f-8c66bf05ef50","1393146300","600","Spanish La Liga Blitz H\/L 2013\/2014"],
+        ["ba0ff869-b68c-44c3-ac0a-67c4f77ba8fc","1393146900","300","Bundesliga Blitz H\/L 2013\/2014"],
+        ["d981dd13-c281-457d-baef-9e196ec37425","1393147200","600","Italian Serie A Blitz H\/L 2013\/2014"],
+        ["a35fdc4f-2034-49ca-948e-95bb2aa57e6e","1393147800","300","Barclays Premier League Blitz..."],
+        ["85e0a472-3698-436a-8f5f-caf57ef463f1","1393148100","600","Barclays Premier League Blitz..."],
+        ["ce4c5ea8-b824-4bea-9e5a-cbec9c1ccb11","1393148700","300","Barclays Premier League Blitz..."],
+        ["7471f40b-10df-48f4-92e6-c132f744513e","1393149000","600","Barclays Premier League Blitz..."],
+        ["e4581175-ee8d-41a0-9226-a0a0980c6e18","1393149600","1800","FIFA Futbol Mundial"],
+        ["9dd8a7b1-8dd4-4e6c-8c7c-1cd598945484","1393151400","1800","UEFA Champions League Magazine..."],
+        ["3cd435e0-6e7f-4e59-b8ff-c250a76fac13","1393153200","3600","UEFA Euro 2016 - Draw"],
+        ["8fcb3ada-3590-4a80-95a5-df3737f2770d","1393156800","3600","FAPL TV - Saturday Review 2013\/2014"],
+        ["899f5ec6-c57d-48b0-bf1e-368f620bc00a","1393160400","1800","Match Build Up - BPL"],
+        ["2b0e1d14-79b9-43af-b649-c9b6e31c4c99","1393162200","7200","Barclays Premier League 2013\/2014"],
+        ["77216235-a3c8-49ac-8b44-4b9e5cc0b207","1393169400","1800","Match Build Up - BPL"],
+        ["059d1e94-2442-4ee4-aa0a-6d5e6fca3101","1393171200","10800","Barclays Premier League 2013\/2014"],
+        ["2d66637d-428c-4a5f-8cfe-1dbcba7aa5d7","1393182000","3300","FAPL TV - Fan Zone"],
+        ["ea7b116a-0c8a-425e-8440-31ad96a579a8","1393185300","7500","Spanish La Liga 2013\/2014"]
+      ]
+    }
+  ],
+  "Date":"2014-02-23",
+  "DateTime":1393106400,
+  "Midnight":1393106400,
+  "Now":1393159776
+}
+
+// http://www.dstv.com/guide/GuideAsyncHandler.ashx?eventId=059d1e94-2442-4ee4-aa0a-6d5e6fca3101&method=GetEventDetails
+
+{
+  "Actor":"",
+  "ChannelNumber":null,
+  "Director":"",
+  "EventId":"059d1e94-2442-4ee4-aa0a-6d5e6fca3101",
+  "ImageUrl":"http:\/\/cdn.dstv.com\/www.dstv.com\/epg\/",
+  "IsHighDefinition":false,
+  "IsMultipleSoundTrack":false,
+  "IsWideScreen":false,
+  "Rating":"Family",
+  "ReminderActive":false,
+  "Synopsis":"'Norwich City vs Tottenham Hotspur'. Live from Carrow Road - Norwich, England.",
+  "Time":"1393171200",
+  "Title":"Barclays Premier League 2013\/2014",
+  "Year":null
+}
+
+{
+  "Actor":"",
+  "ChannelNumber":null,
+  "Director":"",
+  "EventId":"20f0cf8f-d97e-44ee-a68d-98a2127d900e",
+  "ImageUrl":"http:\/\/cdn.dstv.com\/www.dstv.com\/epg\/",
+  "IsHighDefinition":false,
+  "IsMultipleSoundTrack":false,
+  "IsWideScreen":false,
+  "Rating":"Family",
+  "ReminderActive":true,
+  "Synopsis":"'Round Of 16, 1st Leg - Zenit St Petersburg vs Borussia Dortmund'. Live from Petrovsky Stadium - Saint-Petersburg, Russia.",
+  "Time":"1393347000",
+  "Title":"UEFA Champions League 2013\/2014",
+  "Year":null
+}

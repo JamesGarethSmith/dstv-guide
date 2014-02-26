@@ -45,6 +45,9 @@ gem 'whenever'
 
 # Use Capistrano for deployment
 gem 'capistrano', group: :development
+gem 'capistrano-bundler', '~> 1.1.2'
+gem 'capistrano-rvm'
+gem 'capistrano-rails', '~> 1.1'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
