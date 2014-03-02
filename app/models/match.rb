@@ -20,6 +20,10 @@ class Match < ActiveRecord::Base
     where("ends_at < ?", Time.now)
   end
 
+  def self.clear_finished
+    self.finished.find_each(&:destroy)
+  end
+
   def to_s
     title
   end
