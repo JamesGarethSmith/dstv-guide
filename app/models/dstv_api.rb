@@ -22,7 +22,7 @@ class DstvApi
           puts event[3]
           puts Match.where(key: event[0]).present?
 
-          Match.where("starts_at = ? AND channel_number = ?", Time.at(event[1].to_i, channel_number).first_or_create do |match|
+          Match.where("starts_at = ? AND channel_number = ?", Time.at(event[1].to_i), channel_number).first_or_create do |match|
             match.starts_at = Time.at(event[1].to_i)
             match.ends_at = Time.at(event[1].to_i) + event[2].to_i.seconds
             match.channel_number = channel_number
