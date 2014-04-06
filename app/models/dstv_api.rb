@@ -19,13 +19,11 @@ class DstvApi
         # select those that are at least 7200 seconds long (2 hours) and are either premier or champions league
         if (event[3].downcase.match(/barclays premier league/) || event[3].downcase.match(/uefa champions league/)) && event[2].to_i >= 7200
           # create a match for those events
-          puts event[3]
-          puts Match.where(key: event[0]).present?
-
-          Match.where("starts_at = ? AND channel_number = ?", Time.at(event[1].to_i), channel_number).first_or_create do |match|
+          Match.where("starts_at = ? AND channel_number = ?", Time.at(event[1].to_i), channel_number).first_or_create! do |match|
+            match.key = event[0]
             match.starts_at = Time.at(event[1].to_i)
-            match.ends_at = Time.at(event[1].to_i) + event[2].to_i.seconds
             match.channel_number = channel_number
+            match.ends_at = Time.at(event[1].to_i) + event[2].to_i.seconds
             match.competition = event[3].downcase.match(/barclays premier league/) ? "Barclays Premier League" : "UEFA Champions League"
           end
         end
